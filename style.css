@@ -1,0 +1,12 @@
+* { font-family: "Noto sans", sans-serif; box-sizing: border-box; }
+body { padding: 8px; background: #1e1e2e; color: #cdd6f4; }
+
+.center { position: fixed; top: 50%; left: 50%; width: 500px; display: flex; flex-direction: column; gap: 20px; text-align: center; transform: translate(-50%, -50%); }
+
+.date { font: 22.5px monospace; line-height: 50%; }
+.time { font-size: 55px; }
+.battery { font-size: 15px; }
+
+.url-bar { display: flex; align-items: center; padding: 10px; background-color: #1e1e2e; }
+#url-input { flex: 1; padding: 5px; background-color: #181825; border: #11111b; color: #cdd6f4; }
+#search-button { padding: 5px 10px; background-color: #cba6f7; color: #11111b; border: none; cursor: pointer; }
