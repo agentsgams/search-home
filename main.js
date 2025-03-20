@@ -24,7 +24,7 @@ const phrases = [
   "Get to typing..!",
   "Find what you need online here..."
 ];
-let typingSpeed = 50;
+let typingSpeed = 30;
 let deletingSpeed = 80;
 let loopDelay = 1000;
 
@@ -37,7 +37,7 @@ function search() {
     window.location.href = formattedUrl;
   } else {
     var temp
-    switch (searchEngine) { case "google":temp="https://www.google.com/search?q=";break }
+    switch (searchEngine) { case"google":temp="https://www.google.com/search?q=";break; case"duckduckgo":temp="https://duckduckgo.com/?q=";break; case"bing":temp="https://www.bing.com/search?form=&q=";break; case"brave":temp="https://search.brave.com/search?q=";break; }
     const searchUrl = `${temp}${encodeURIComponent(userInput)}`;
     window.location.href = searchUrl;
   }
