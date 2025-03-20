@@ -7,6 +7,11 @@
   <script src="./main.js" type="module"></script>
 </head>
 <body>
+  <div class=topnav>
+    <a onclick="window.location.href='https://agentsgams.github.io'" class="active agentsgamsicon" style="cursor: pointer;">agents gams<span class=blink>_</span></a>
+    <a href="#" class="right config">Config</a>
+  </div>
+
   <div class="center">
     <div class="date"></div>
     <div class="time"></div>
@@ -14,6 +19,20 @@
     <div class="url-bar">
       <input type="text" id="url-input" placeholder="Search Google or type a URL">
       <button id="search-button">Search</button>
+    </div>
+  </div>
+
+  <div id="config-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Change Search Engine</h2>
+      <label for="search-engine">Select Search Engine:</label>
+      <select id="search-engine">
+        <option value="google">Google</option>
+        <option value="bing">Bing</option>
+        <option value="duckduckgo">DuckDuckGo</option>
+      </select>
+      <button id="save-button">Save</button>
     </div>
   </div>
 </body>
