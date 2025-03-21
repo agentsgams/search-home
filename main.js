@@ -19,10 +19,18 @@ var searchEngine = "google";
 
 // Typewriter Config
 const phrases = [
-  "Where do you want to go to...?",
+  "Where do you want to go to..?",
   "Search anywhere or type an URL...",
   "Get to typing..!",
-  "Find what you need online here..."
+  "Find what you need online here...",
+  "Start your search here...",
+  "Type in what you're looking for...",
+  "What can I find for you today..?",
+  "Need something? Let's find it here...",
+  "Explore the web, just type it in...",
+  "Where do you want to explore today..?",
+  "The web is waiting for your query...",
+  "Ready to find something new..?"
 ];
 let typingSpeed = 30;
 let deletingSpeed = 80;

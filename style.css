@@ -32,3 +32,10 @@ body { padding: 0; background: #121212; color: #fff; }
 .modal-content { padding: 20px; color: #000; }
 .close-button { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
 .close-button:hover, .close-button:focus { color: black; text-decoration: none; cursor: pointer; }
+
+.popular-sites { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; }
+.site { background-color: #1e1e2e; border-radius: 10px; margin: 10px; padding: 10px; text-align: center; width: 200px; transition: transform 0.2s; }
+.site:hover { transform: scale(1.05); }
+.site img { width: 100%; border-radius: 10px; }
+.site h3 { color: #fff; margin: 10px 0 0 0; }
+.site a { cursor: pointer; }
